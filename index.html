@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d1406e22b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- ..........................navbar...................... -->
+
+    <nav class="navbar navbar-expand-lg  navcolor">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Protfolio</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " href="#Project">Projects</a>
+                    </li>
+
+                   
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="#contact">Contact</a>
+                    </li>
+                </ul>
+               
+                   <button class="btn btn-outline-light" type="submit" onclick="openAndDownload()">Resume</button>
+               
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- ............................home................................... -->
+
+    <div class="conatiner  home text-light overflow-hidden " id="home">
+        <div class="row text-center py-5">
+            <h1>Hi, I'm Lokesh Sharma</h1>
+            <h5 class="pb-5">A MERN Stack Developer</h5>
+            <img src="MERN-Stack-Development.png" alt="" style="width: 30%;margin: auto;">
+        </div>
+    </div>
+
+
+
+    <!-- ...............................About.................................... -->
+    <div class="w-100 py-2 navcolor"></div>
+    <div class="about text-light w-100 pt-3 overflow-hidden pb-5" id="about">
+        <h3 class="text-center">About Me</h3>
+        
+        <div class=" row py-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 px-5">
+                <img src="software-developer-6521720_1280.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="col-md-5 mx-2 ">
+                <h6 class="text-center">Introduction</h6>
+                <p class="mt-4">
+                    I am a dedicated MERN Stack Developer with a strong passion for creating efficient, scalable, and
+                    user-friendly web applications. My expertise lies in building dynamic frontends using React.js,
+                    developing robust backends with Node.js and Express.js, and managing databases effectively with
+                    MongoDB. With a keen eye for detail and a problem-solving mindset, I strive to deliver seamless user
+                    experiences and high-performing solutions. I enjoy collaborating with teams, embracing challenges,
+                    and continuously learning to stay updated with the latest technologies in web development. My goal
+                    is to contribute to innovative projects that make a meaningful impact.
+                </p>
+                <button class=" resume " type="submit" onclick="openAndDownload()">Resume</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ...........................skills.............................. -->
+
+    <div class="w-100 py-2 navcolor"></div>
+
+    <div class="Skill text-light overflow-hidden pb-5" id="skills">
+        <h3 class="text-center pt-3">Skills</h3>
+       
+            <div class="d-flex justify-content-evenly flex-wrap" >
+                <div >
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color: rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa fa-html5" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            HTML
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+                        <div>
+                           Java Script
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div>
+                           MongoDB
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa fa-css3" aria-hidden="true"></i>
+                        </div>
+                        <div>
+
+                            CSS
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-brands fa-node"></i>
+                        </div>
+                        <div>
+                            Node js
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div>
+                            SQL
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+       
+    </div>
+
+
+    <!-- .....................................Projects.................................... -->
+    <div class="w-100 py-2 navcolor"></div>
+
+    <div class="Project text-light py-4" id="Project">
+        <h3 class="text-center ">Projects</h3>
+        <div>
+            <div>
+                <h1 class="text-center"><span style="color: rgb(73, 11, 11);">1. </span>Smart-Home-Manager</h1>
+                <div class="d-flex py-5">
+                    <div>
+                        <img src="project1.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <img src="project12.png" alt="" width="100%">
+                    </div>
+                </div>
+                <h4 class="text-center" >Overview</h4>
+                <p>This project aims to create a centralized hub that brings all smart devices under one roof, allowing users to control and monitor every room and device from a single platform. By providing a unified interface for device control, routine automation, and energy tracking, we’re making smart homes not just more efficient but also easier to manage."
+                    <span><h2>Key Features</h2></span>
+                    <br><span style="color: rgb(73, 11, 11);">1. </span> Control Everything in One Place: You can control your lights, thermostat, security cameras, and appliances from one app.
+                    <br><span style="color: rgb(73, 11, 11);">2. </span> Save Energy: V-Smart helps reduce energy waste by letting you monitor and manage power usage, which can lower your electricity bills.
+                    <br><span style="color: rgb(73, 11, 11);">3. </span> Make Life Easier: Automate everyday tasks like turning off lights or adjusting the temperature so you don’t have to do it manually.
+                    <br><span style="color: rgb(73, 11, 11);">4. </span> Easy to Use: Whether you have physical challenges or just want things to be simpler, V-Smart makes controlling your home easy for everyone.
+                    <br><br>
+                    <span style="color: rgb(73, 11, 11);">Deployed Link -</span> <a href="https://vsmarthomes.netlify.app/" style="text-decoration: none;" target="_blank">https://vsmarthomes.netlify.app/</a>
+                </p>
+            </div>
+
+            <div class="w-100 py-1 navcolor my-3"></div>
+
+            <div>
+                <h1 class="text-center"><span style="color: rgb(73, 11, 11);">2. </span>QR Code-Based Calorie Calculator</h1>
+                <div class="d-flex py-5">
+                    <div>
+                        <img src="project2.png" alt="" width="100%">
+                    </div>
+                    <div>
+                        <img src="project22.png" alt="" width="100%">
+                    </div>
+                </div>
+                <h4 class="text-center">Overview</h4>
+                <p>The QR Code-Based Calorie Calculator is a web application that allows users to calculate the calorie count of their meals by scanning QR codes. Each QR code represents a dish and contains nutritional information about it. The app lets users modify the quantity of each dish and instantly get updated calorie counts. The goal is to help health-conscious individuals make informed food choices.
+                    <span><h2>Key Features</h2></span>
+                    <br><span style="color: rgb(73, 11, 11);">1. </span>  QR Code Scanning: Scan QR codes to retrieve the calorie breakdown of a dish.
+                    <br><span style="color: rgb(73, 11, 11);">2.</span>  Real-Time Updates: Modify the quantities of ingredients and see the calorie changes instantly.
+                    <br><span style="color: rgb(73, 11, 11);">3.</span>  Inventory Management: Manage dishes and their constituent items using CRUD functionality.
+                    <br><span style="color: rgb(73, 11, 11);">4. </span>  User-Friendly Interface: Easy navigation and interactive UI for a smooth experience.
+                    <br><br>
+                    <span style="color: rgb(73, 11, 11);">Deployed Link -</span> <a href="https://clinquant-phoenix-d89a4e.netlify.app/" style="text-decoration: none;" target="_blank">https://clinquant-phoenix-d89a4e.netlify.app/</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ....................................contact............................. -->
+
+    <div class="w-100 py-2 navcolor"></div>
+
+    <div class="Skill text-light overflow-hidden pb-5" id="contact">
+        <h3 class="text-center pt-3">Contact</h3>
+       
+            <div class="d-flex justify-content-evenly flex-wrap" >
+                <div >
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color: rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            7347670039
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                           Chandigarh
+                        </div>
+
+                    </div>
+
+                  
+
+                </div>
+
+
+
+                <div>
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div style="font-weight: 1;font-size: 15px;">
+
+                            Lokeshsharma7778@gmail.com
+                        </div>
+
+                    </div>
+
+                    <div class="divfixing" style=" background-color: #9BD3D0;">
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                           <a href="https://www.linkedin.com/in/lokesh-sharma-2a80b52b7/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <a href="https://github.com/dev-Lokesh-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+
+                        <div
+                            style="display: flex;justify-content: center;align-items: center;width: 50px;background-color:  rgb(28, 17, 17);height: 50px;border: 1px solid black;margin-left: 20px;">
+                            <a href="https://t.me/dev_Lokesh_dev" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+
+            </div>
+       
+    </div>
+
+    
+
+    
+
+
+   
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
